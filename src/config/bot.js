@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Cheapy, simply me. /help ",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Cheapy",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -424,13 +424,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "⛔Slow down bro! You don't have acces to run this.",
+    cooldownActive: "🙄Yo, wait {time} before using that again.",
+    errorOccurred: "😒Error! I don't know how. Ask ChatGPT, lol.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "⚠️Hey! I don't have permissions for this. Give me to do things~. [Put my role on the top of the roles]",
+    commandDisabled: "❌Command disabled.",
+    maintenanceMode: "🛠️The bot is currently in maintenance mode🛠️",
   },
 
   // =========================
