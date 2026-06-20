@@ -100,7 +100,7 @@ export async function createInitialHelpMenu(client) {
             },
             {
                 name: '\u200B',
-                value: `-# ${botName} is made by Marcpine and Touchpoint`,
+                value: `-# ${botName} esta hecho por Marcpine y Touchpoint`,
                 inline: false,
             },
         ],
@@ -118,12 +118,12 @@ export async function createInitialHelpMenu(client) {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setURL("")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
         CATEGORY_SELECT_ID,
-        "Select to view the commands",
+        "Selecciona para ver los comandos",
         options,
     );
 
@@ -163,8 +163,8 @@ export default {
                 }
 
                 const closedEmbed = createEmbed({
-                    title: "Help menu closed",
-                    description: "Help menu has been closed, use /help again.",
+                    title: "Ayuda cerrada",
+                    description: "Se cerro el menu de ayuda.",
                     color: "secondary",
                 });
 
