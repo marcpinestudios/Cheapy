@@ -59,8 +59,8 @@ export async function createInitialHelpMenu(client) {
 
     const options = [
         {
-            label: "📋 All Commands",
-            description: "Browse every available command in a single list",
+            label: "📋 Todos los comandos",
+            description: "Todos los comandos en una sola lista",
             value: ALL_COMMANDS_ID,
         },
         ...categoryDirs.map((category) => {
@@ -77,7 +77,7 @@ export async function createInitialHelpMenu(client) {
     const botName = client?.user?.username || "Bot";
     const embed = createEmbed({
         title: `📖 ${botName} Help`,
-        description: 'Set up your server, pick what to enable, then browse commands below.',
+        description: 'Guia rapida para los comandos',
         color: 'primary',
         thumbnail: client.user?.displayAvatarURL?.({ size: 1024 }),
         fields: [
